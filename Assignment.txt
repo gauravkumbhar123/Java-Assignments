@@ -1,0 +1,44 @@
+//Difference between length and length():
+
+Ans-The length is an instance variable of an array in Java .The length is an instance variable of an array in Java .
+-Once arrays are initialized, its length cannot be changed, so the length variable can directly be used to get the length of an array.
+-The length variable is used only for an array.
+
+length():
+-length() is a method of String class.
+-The length() returns the length of a string object i.e. the number of characters stored in an object.
+-String class uses this method because the length of a string can be modified using the various operations on an object.
+-The String class internally uses a char[] array that it does not expose to the outside world.
+
+//Q2)Multiple Inheritance
+Multiple Inheritance in Java: 
+Defining derived class from numerous base classes is known as ‘Multiple Inheritance’. 
+In this case, there is more than one superclass, and there can be one or more subclasses. 
+Multiple inheritances are available in object-oriented programming with C++, but it is not available in Java. 
+Java developers want to use multiple inheritances in some cases.
+ Fortunately, Java developers have interface concepts expecting the developers to achieve multiple inheritances by using multiple interfaces. 
+Ex: class Myclass implements interface1, interface2,…. 
+ex. 
+class A10{  
+void msg(){
+	System.out.println("Hello");
+	}  
+}  
+class B{  
+void msg(){
+	System.out.println("Welcome");
+	}  
+}  
+class C extends A,B {
+   public static void main(String args[]){  
+   C obj=new C();  
+   obj.msg();
+}  
+}  
+Q3)Hybrid Inheritance
+Hybrid Inheritance in Java: 
+Hybrid Inheritance in Java is a combination of Inheritances. 
+In this type of Inheritance, more than one kind of inheritance is observed.
+For example, if we have class A and class B that extend class C and then there is another class D that extends class A, then this type of Inheritance is known as Hybrid Inheritance.
+Why? Because we clearly observe that there is two kinds of inheritance here- Hierarchical and Single Inheritance.
+In the diagram shown below, we see another example of Hybrid Inheritance.
