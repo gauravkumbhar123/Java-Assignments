@@ -1,0 +1,100 @@
+Hash Set:
+******************
+HashSet is a class which implements the Set interface that in turn provides a HashTable for the storage of elements.
+ It stores the unique elements only. The order in which the elements are iterated is not guaranteed to show in the order it was inserted in the set.
+
+Some important points to note about the HashSet are:
+
+Does not allow duplicate values
+It allows Null elements
+Stores the value by using a concept called as Hashing
+It is non synchronized
+It is best suited for the search operations
+It does not maintain the insertion order
+Syntax-
+
+HashSet<String> set=new HashSet(); 
+ 
+How HashSet Works?
+Whenever we instantiate an object of HashSet in Java, it in turn instantiates an object of HashMap which stores all the objects we inserted into the HashSet as its key. 
+The value of all the keys in the HashMap is set as a constant called “PRESENT” which is predefined in the HashSet implementation class.
+ And this is the reason that HashSet only stores unique objects because its internal implementation i.e. HashMap cannot have duplicate keys. 
+This makes it clear that whenever an add() method is called on a HashSet, it internally calls a put() method for a HashMap.
+
+Following is the list of Methods provided for HashSet Class:
+
+Method	                    Summary
+add(E e)	                Adds the element in the HashSet, but if its already present then it will not add again
+clear()	                   Deletes all the elements of the HashSet
+clone()	                    Returns a clone of the HashSet, i.e., a duplicate copy
+contains(Object o)	It is used to return a ‘true’ value if this set contains the specified element
+isEmpty()	                Checks if the list is empty, then it returns true, else false
+remove(Object o)	Removes specified object from the HashSet
+size()	                  Returns the Size of the HashSet
+
+LinkedHashSet:
+***********************************************
+‘Linked’, as the name suggests, it uses the concept of doubly linked list. It is a HashSet which maintains a doubly linked list. It implements the Set interface and inherits the HashSet Class
+
+Some important points to note about the LinkedHashSet are:
+
+Does not allow duplicate values
+It allows Null elements
+It is non synchronized
+It maintains the insertion order
+In this, the elements could be added or removed from both ends
+Syntax-
+
+1.
+LinkedHashSet<String> setVal = new LinkedHashSet<String>();
+
+Following is the list of Methods provided for LinkedHashSet Class:
+
+Method	                          Summary
+add(E e)	              Adds the element in the LinkedHashSet, but if it is already present then it will not add again
+clear()	              Deletes all the elements of the LinkedHashSet
+clone()	                   Returns a clone of the LinkedHashSet, i.e., a duplicate copy
+contains(Object o)	It is used to return a ‘true’ value if the set contains the specified element
+isEmpty()	              Checks if the list is empty, then returns a true value, else false
+remove(Object o)	Removes specified object from the LinkedHashSet
+size()	                Returns the Size of the LinkedHashSet
+
+TreeSet:
+************************************
+Tree set Class implements the Set interface and inherits the Abstract class and implements the NavigableSet interface. It uses a tree for the storage of the elements. All the elements in the TreeSet are stored in an ascending order.
+
+Some important points to note about the TreeSet are:
+
+Elements are by default sorted and stored in ascending order
+It is non Synchronized
+Does not allow to store the null elements
+It contains only the unique elements
+It does not preserve the insertion order of the elements
+Syntax-
+
+TreeSet<String> setVal = new TreeSet<String>();
+
+Following is the list of Methods provided for TreeSet Class:
+
+Method	                                                                   Description
+add(E e)	                                                    Adds the specified element to the TreeSet
+addAll(Collection<? extends E> c)	Adds all the elements mentioned in the collection
+E ceiling(E e)	                             Provides the element that is nearest to the mentioned element
+Iterator descendingIterator()	         Iterates the Treeset in a descending order
+NavigableSet descendingSet()	         Returns the reverse of the TreeSet
+E floor(E e)	                            Provides the equal or closest least element of the specified element from the set, or null if there is no such element.
+E higher(E e)	                          Provides the closest greatest element of the specified element from the set, or null if there is no such element.
+Iterator iterator()	                         Iterates in ascending order
+E lower(E e)	                        Provided the least element of the specified element from the set, or null if there is no such element.
+E pollFirst()	                        It removes the first element from the TreeSet
+E pollLast()	                    It removes the last element from the TreeSet
+NavigableSet subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)	It returns a set of elements that lie between the given range
+SortedSet tailSet(E fromElement)	       Returns the list of elements that are present in the list after the mentioned element
+boolean contains(Object o)	         Checks if the object mentioned is present in the TreeSet or not
+boolean isEmpty()	                       Checks if the TreeSet is empty then returns true
+boolean remove(Object o)	   Removes specified object from the TreeSet
+void clear()	                   Deletes all the elements of the TreeSet
+Object clone()	            Returns a copy of the TreeSet
+E first()	                         Returns the first element of the TreeSet
+E last()	                            Returns the last element of the TreeSet
+int size()	                        Returns the Size of the TreeSet

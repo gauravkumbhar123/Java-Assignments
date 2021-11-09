@@ -1,0 +1,58 @@
+1.Throwable class
+
+The Throwable class is the superclass of every error and exception in the Java language.
+ Only objects that are one of the subclasses this class are thrown by any “Java Virtual Machine” or may be thrown by the Java throw statement. For the motives of checking of exceptions during compile-time, 
+Throwable and any subclass of Throwable which is not also a subclass of either Error or RuntimeException are considered as checked exceptions.
+Throwable class is the root class of Java Exception Hierarchy and is inherited by two subclasses: 
+1.Exception 
+2.Error 
+The throwable class implements Serializable Interface and the direct known classes to Throwable are Error and Exception. 
+Throwable contains a snapshot of the execution stack of its thread at the time it was created. It can also contain a message string that gives more information about the error. It can also suppress other throwables from being propagated. 
+If a user wants to create his own, custom throwable, then he/she can extend Throwable class. 
+
+
+
+2.List out all the classes under exception class
+ Post Will Cover [hide]
+
+Share and Enjoy !
+Exception Classes in Java
+ArrayIndexOutOfBound Exception in Java:
+The structure of the class ArrayIndexOutOfBoundsException looks like the below:
+IllegalMonitorStateException in Java:
+The structure of the class IllegalMonitorStateException as follows:
+IllegalArgumentException Class in Java:
+The structure of IllegalArgumentException class is as below:
+Example of IllegalArgumentException in java:
+OptionalDataException class in java
+The class structure of OptionalDataException class in given as
+IllegalAccessException class in java
+The structure of the IllegalAccessException class is defined as below:
+CloneNotSupportedException in Java:
+The structure of the class CloneNotSupportedException as follows:
+IntrospectionException in Java
+ObjectStreamException in Java
+ClassNotFoundException in Java
+The structure of the ClassNotFoundException class is given below:
+Class ClassCastException in Java
+The structure of the class ClassCastException is as follows:
+ArrayStoreException in Java:
+The structure of the class ArrayStoreException as follows:
+Apart from these, ArrayStoreException also inherits methods from Class Object and  Throwable. They are as follows:
+Example of ArrayStoreException:
+Class NoSuchElementException in Java
+The structure of the NoSuchElementException class is given by
+StringOutOfBoundsException in Java:
+The structure of the class StringOutOfBoundsException is given by:
+Example of StringOutOfBoundsException
+Class UTFDataFormatException in Java
+The structure of the class UTFDataFormatException is given as:
+IllegalStateException in Java
+The structure of the class IllegalStateException in Java is given as:
+Class BindException In Java:
+The structure of BindException is given as:
+Class EOFException in Java
+The structure of the class EOFException is given as:
+WriteAbortedException in java:
+The structure of WriteAbortedException in java is given as:
+Class ArithmeticException in Java:

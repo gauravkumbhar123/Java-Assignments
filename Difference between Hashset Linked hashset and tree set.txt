@@ -1,0 +1,7 @@
+Difference between HashSet, LinkedHashSet, And TreeSet
+Basis	                   LINKEDHASHSET	                                                     HASHSET	                                                    TREESET
+Internal Storage	Uses LinkedHashMap for object Storage	Uses HashMap for object Storage	                   Uses TreeMap for object Storage
+Insertion order	It maintains	                                                It does not maintain	                It maintains the order as per the comparator mentioned.
+Null Values	Only one Null Object is allowed.	                 Only one Null Object is allowed.	                        Doesn’t allow Null Objects.
+Performance	It is Slower compared to both.	                  Better performance as compared to other two.	            Better than LinkedHashSet, but lacks during insertion deletion operation , since it has to sort itself everytime.
+When To Use	If you want to maintain insertion order	If insertion order doesn’t matters.	                     When we need to sort as per some comparator.

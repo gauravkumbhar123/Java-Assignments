@@ -1,0 +1,79 @@
+1.Java ArrayList Methods
+  Java has a lot of ArrayList methods that allow us to work with arraylists. In this reference page, you will find all the arraylist methods available in Java.
+ For example, if you need to add an element to the arraylist, use the add() method.
+1.Java ArrayList add()
+inserts the element to the arraylist
+2.Java ArrayList addAll()
+adds all elements of a collection to arraylist
+
+3.Java ArrayList clear()
+removes all the elements from arraylist
+
+4.Java ArrayList clone()
+makes a copy of the array list
+
+5.Java ArrayList contains()
+checks if the element is present in the arraylist
+
+6.Java ArrayList get()
+returns the element present in the specified index
+
+7.Java ArrayList indexOf()
+returns the position of the specified element
+
+8.Java ArrayList removeAll()
+removes multiple elements from the arraylist
+
+9.Java ArrayList remove()
+removes the single element from the arraylist
+
+10.Java ArrayList size()
+returns the length of an arraylist
+
+11.Java ArrayList isEmpty()
+checks if the arraylist is empty
+
+12.Java ArrayList subList()
+returns a portion of the arraylist
+
+13.Java ArrayList set()
+replace the single element from an arraylist
+
+14.Java ArrayList sort()
+sorts the arraylist according to specified order
+
+15.Java ArrayList toArray()
+converts an arraylist to an array
+
+16.Java ArrayList toString()
+converts the arraylist into a String
+
+17.Java ArrayList ensureCapacity()
+set the size of an araylist
+
+18.Java ArrayList lastIndexOf()
+returns position of last occurrence of the element
+
+19.Java ArrayList retainAll()
+retains only the common elements
+
+20.Java ArrayList containsAll()
+checks if a collection is a subset of arraylist
+
+21.Java ArrayList trimToSize()
+trims the capacity of arraylist equal to the size
+
+22.Java ArrayList removeRange()
+removes a portion of the arraylist
+
+23.Java ArrayList replaceAll()
+replace all elements from the arraylist
+
+24.Java ArrayList removeIf()
+removes element that satisfy the condition
+
+25.Java ArrayList forEach()
+performs an action to all elements of arraylist
+
+26.Java ArrayList iterator()
+returns an iterate to loop through the ArrayLis

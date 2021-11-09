@@ -1,0 +1,38 @@
+
+Q.Explore about getClass() method
+Answer-
+Java Object getClass() Method
+getClass() is the method of Object class. This method returns the runtime class of this object.
+ The class object which is returned is the object that is locked by static synchronized method of the represented class.
+
+Synrax
+
+public final Class<?> getClass() 
+
+Example:
+public class ObjectgetClassExample1 {  
+    public static void main(String[] args)   
+    {   
+        Object obj = new String("TestYantra");   
+        Class a = obj.getClass();   
+        System.out.println("Class of Object obj is : " + a.getName());   
+    }   
+} 
+
+
+Q.Difference between ‘==’ and ‘.equals()’
+
+Equality operator “==”
+
+Equality operator can be used to compare primitives but when you compare objects using ==, it just compares reference not the actual content of the objects.
+
+Equals methods:
+
+If you want to compare the actual content of the object, then you need to override equals method in your class.
+ If you do not override object’s class equals method, then it behaves same as "==" and compares references only. 
+
+Difference between equals() and == in java
+== is operator whereas equals is method in java.
+== is recommended to compare primitives whereas equals method is recommended to compare the actual content of objects.
+Equals method can be overridden but you can’t override behavior of “==” operator
+== can be used with primitives and objects but you can’t use equals method with primitives.
